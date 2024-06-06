@@ -1,0 +1,2 @@
+Application started
+Ronda: 1 Estado actual:-Portaviones: 1-Destructores: 2-Submarinos: 2-Frigatas: 4*Vida Portaviones: 4*Vida Destructor 1: 2*Vida Destructor 2: 2*Vida Submarino 1: 3*Vida Submarin0 2: 3

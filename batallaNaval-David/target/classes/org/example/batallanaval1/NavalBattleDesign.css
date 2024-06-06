@@ -1,0 +1,85 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #e0f7fa, #ffffff); /* Light gradient background */
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.7), 10, 0, 0, 0); /* Add a light shadow effect */
+}
+
+#hbxHead {
+    -fx-start-margin: 30;
+}
+
+#lblTitle {
+    -fx-font-family: "Montserrat Bold";
+    -fx-alignment: center;
+    -fx-font-size: 30;
+    -fx-text-fill: #00796b; /* Dark teal text color */
+    -fx-padding: 80 0 20 0;
+}
+
+#paneBaseA {
+    -fx-background-color: linear-gradient(to bottom left, #e0f7fa, #ffffff); /* Lighter panel background */
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.7), 10, 0, 0, 0); /* Add a light shadow effect */
+}
+
+#paneBaseB {
+    -fx-background-color: linear-gradient(to bottom right, #e0f7fa, #ffffff); /* Lighter panel background */
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.7), 10, 0, 0, 0); /* Add a light shadow effect */
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom right, #ffffff, #b2dfdb); /* Light gradient button background */
+    -fx-border-color: #00796b; /* Dark teal border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: #00796b; /* Dark teal text color */
+    -fx-font-family: "Montserrat Bold";
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0, 0, 0); /* Add a light shadow effect */
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom right, #b2dfdb, #ffffff); /* Inverted light gradient on hover */
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(to bottom right, #00796b, #004d40); /* Darker gradient on press */
+    -fx-text-fill: #ffffff; /* White text color on press */
+}
+/* styles.css */
+
+/* General boat style */
+.boat {
+    -fx-stroke: #333333; /* Border color */
+    /* Border width */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 10, 0, 0, 0); /* Shadow effect */
+}
+
+/* Specific styles for different types of boats */
+.aircraft-carrier {
+    -fx-fill: #ffcc80; /* Light orange fill color */
+}
+
+.frigate {
+    -fx-fill: #90caf9; /* Light blue fill color */
+}
+
+.submarine {
+    -fx-fill: #a5d6a7; /* Light green fill color */
+}
+.destroyer {
+    -fx-fill: #FFA07A; /* Light green fill color */
+}
+
+.game-board-pane {
+    -fx-background-color: rgb(177,194,255);
+    -fx-border-color: rgba(0,0,0,0.7);
+    -fx-stroke-type: inside;
+}
+
+.game-board-pane:hover {
+    -fx-background-color: rgb(173,173,173,0.66);
+}
+
+.game-board-pane:pressed {
+    -fx-background-color: rgb(200,200,200,0.66);
+}
